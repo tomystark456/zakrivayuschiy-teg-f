@@ -18,6 +18,12 @@
   min-block-size: 100dvb;
   background-color: var(--page-background-color);
   color: var(--text-color);
+  padding-block-start: 100px;
+  font-family: var(--page-main-font-family), sans-serif;
+  background-image: var(--page-background-image, none);
+  background-size: cover;
+  background-attachment: fixed;
+  font-variation-settings: "wght" var(--page-main-font-weight, 400);
 }
 
 .filter-grayscale {
@@ -46,19 +52,6 @@
 
 .filter-blur {
   filter: blur(5px);
-}
-
-.page {
-  padding-block-start: 100px;
-  color: var(--text-color, #000000);
-  font-family: var(--page-main-font-family), sans-serif;
-  background-color: var(--page-background-color, #ffffff);
-  background-image: var(--page-background-image, none);
-  background-size: cover;
-  background-attachment: fixed;
-  font-variation-settings: "wght" var(--page-main-font-weight, 400);
-  min-inline-size: 320px;
-  min-block-size: 100dvb;
 }
 
 .page__header {
