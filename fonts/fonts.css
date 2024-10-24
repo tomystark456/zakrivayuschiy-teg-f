@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: Inter;
-  src: url('../fonts/Inter-Variable.woff2') format('woff2 variable');
+  src: url('../fonts/Inter-Variable.woff2') format('woff2 supports variations, woff2-variations');
   font-weight: 400 785;
   font-style: oblique 0deg 90deg;
   font-display: swap;

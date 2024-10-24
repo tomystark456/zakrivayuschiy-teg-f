@@ -70,7 +70,6 @@
   padding: 25px 30px;
   color: var(--text-color, #000000);
   font-family: var(--page-accent-font-family), sans-serif;
-);
   line-height: 1.5;
   text-transform: uppercase;
   background: var(--page-background-color, #ffffff);
@@ -337,8 +336,9 @@
 }
 
 .button__icon {
-  block-size: 22px;
-  inline-size: 22px;
+  flex-shrink: 0;
+  block-size: 40px;
+  inline-size: 40px;
 }
 
 .like-icon {
@@ -357,12 +357,12 @@
   }
 
   .button__icon {
-    block-size: 28px;
-    inline-size: 28px;
+    block-size: 40px;
+    inline-size: 40px;
   }
 }
 
-@supports () {
+@supports (text-stroke: 1px black) or (-webkit-text-stroke: 1px black) {
   .card__img-label {
     -webkit-text-stroke-color: var(--page-background-color);
     -webkit-text-stroke-width: 1px;
