@@ -611,7 +611,7 @@
          aria-hidden="true">
       <use href="./svg/floppy.svg#floppy"></use>
     </svg>
-    <p class="modal__text">Вставьте дискету, чтобы продолжить</p>
+    <p >Вставьте дискету, чтобы продолжить</p>
   </div>
   <form method="dialog">
     <button type="submit" class="button modal__button-ok">
